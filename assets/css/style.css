@@ -9,40 +9,34 @@ body {
     background-color: #d9dcd6;
 }
 
-/* h1 main title of the page */
+/* h1 title*/
 h1 {
     font-size: 48px;
     color: #ffffff;
     display: inline-block;
 }
 
-/* a link of the page */
+/* a link */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* p paragraph of the page */
+/* p paragraph*/
 p {
     font-size: 16px;
 }
 
 /* /////START HEADER section CSS///// */
-
-/* Main header block */
-.header {
+/* header */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
-/* Header  the part "SEO" inside the logo change color */
-#header-seo {
-    color: #d9dcd6;
-}
-
-/* Header menu section */
-.header-menu {
+/* nav menu */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,14 +45,19 @@ p {
 }
 
 /* Default item of list marker */
-.header-menu ul {
+nav ul {
     list-style-type: none;
 }
 
 /* Inline menu list */
-.header-menu li {
+nav li {
     display: inline-block;
     margin-left: 25px;
+}
+
+/* Header  the part "SEO" inside the logo change color */
+#header-seo {
+    color: #d9dcd6;
 }
 /* /////END HEADER section CSS///// */
 
@@ -76,8 +75,8 @@ p {
 /* /////END HERO section CSS///// */
 
 /* /////START CONTENT section CSS///// */
-/* Content FULL block (all 3 sections) */
-.content {
+/* article content(all 3 sections) */
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -86,13 +85,13 @@ p {
 }
 
 /* h2 title dimension and spacing with copy element */
-.content h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* images dimensions for content sections */
-.content img {
+article img {
     max-height: 200px;
 }
 
@@ -118,8 +117,8 @@ p {
 /* /////END CONTENT section CSS///// */
 
 /* /////START BENEFITS section CSS///// */
-/* Benefit block */
-.benefits {
+/* aside */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -151,7 +150,7 @@ p {
 /* /////END BENEFITS section CSS///// */
 
 /* FOOTER */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -159,6 +158,6 @@ p {
 }
 
 /* Footer h2 title */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
