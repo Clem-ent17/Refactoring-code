@@ -4,38 +4,42 @@
     margin: 0;
 }
 
-/* Webpage background */
+/* This is the <body> tag */
 body {
     background-color: #d9dcd6;
 }
 
-/* h1 title*/
+/* This is the <h1> tag */
 h1 {
     font-size: 48px;
     color: #ffffff;
     display: inline-block;
 }
 
-/* a link */
+/* This is the <a> tag */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* p paragraph*/
+/* This is the <p> tag */
 p {
     font-size: 16px;
 }
 
-/* /////START HEADER section CSS///// */
-/* header */
+/* 
+ * 
+ Start HEADER section CSS
+*/
+
+/* This is the <header> tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
-/* nav menu */
+/* This is the <nav> tag */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -55,14 +59,17 @@ nav li {
     margin-left: 25px;
 }
 
-/* Header  the part "SEO" inside the logo change color */
+/* Class "SEO" inside the logo to change color */
 #header-seo {
     color: #d9dcd6;
 }
-/* /////END HEADER section CSS///// */
+/***end HEADER section CSS ***/
 
-/* /////START HERO section CSS///// */
-/* Main hero image block */
+/* 
+ * 
+ Start HERO section CSS
+*/
+/* Class "hero" image block */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,10 +79,13 @@ nav li {
     background-position: center;
     display: flex;
 }
-/* /////END HERO section CSS///// */
+/***end HERO section CSS ***/
 
-/* /////START CONTENT section CSS///// */
-/* article content(all 3 sections) */
+/* 
+ * 
+ Start CONTENT section CSS
+*/
+/* This is the <article> tag */
 article {
     width: 75%;
     display: inline-block;
@@ -84,18 +94,18 @@ article {
     color: #ffffff;
 }
 
-/* h2 title dimension and spacing with copy element */
+/* This is the <h2> tag inside the tag article*/
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* images dimensions for content sections */
+/* This is the <img> tag inside the tag article*/
 article img {
     max-height: 200px;
 }
 
-/* Content section CSS */
+/* This is the class "content-section" inside content*/
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,7 +124,7 @@ article img {
     float: right;
     margin-left: 25px;
 }
-/* /////END CONTENT section CSS///// */
+/***end CONTENT section CSS ***/
 
 /* /////START BENEFITS section CSS///// */
 /* aside */
