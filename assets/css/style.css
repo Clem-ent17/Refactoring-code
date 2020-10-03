@@ -31,7 +31,6 @@ p {
  * 
  Start HEADER section CSS
 */
-
 /* This is the <header> tag */
 header {
     padding: 20px;
@@ -113,21 +112,24 @@ article img {
     background-color: #0072bb;
 }
 
-/* Thumbnail float left */
+/* Makes image float left */
 .img-float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Thumbnail float right */
+/* Makes image float right */
 .img-float-right {
     float: right;
     margin-left: 25px;
 }
 /***end CONTENT section CSS ***/
 
-/* /////START BENEFITS section CSS///// */
-/* aside */
+/* 
+ * 
+ Start BENEFITS section CSS
+*/
+/* This is the <aside> tag */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -140,26 +142,30 @@ aside {
     color: #ffffff;
 }
 
-/* Benefit h3 title */
+/* This is the class "benefit-section" */
+.benefit-section {
+    margin-bottom: 32px;    
+}
+
+/* This is the class "benefit-section" inside the tag h3 */
 .benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Benefit icon dimension and position */
+/* This is the class "benefit-section" inside the tag img */
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/***end BENEFITS section CSS ***/
 
-/* Benefit elements bottom spacing */
-.benefit-section {
-    margin-bottom: 32px;    
-}
-/* /////END BENEFITS section CSS///// */
-
-/* FOOTER */
+/* 
+ * 
+ Start FOOTER section CSS
+*/
+/* This is the <footer> tag */
 footer {
     padding: 30px;
     clear: both;
@@ -167,7 +173,8 @@ footer {
     text-align: center;
 }
 
-/* Footer h2 title */
+/* This is the <h2> tag inside the footer tag*/
 footer h2 {
     font-size: 20px;
 }
+/***end FOOTER section CSS ***/
